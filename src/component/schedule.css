@@ -1,0 +1,10 @@
+.schedule-background {
+  background: #9900ff;
+    background: -webkit-linear-gradient(#1f0033, #d699ff);
+    background:    -moz-linear-gradient(#1f0033, #d699ff);
+    background:         linear-gradient(#1f0033, #d699ff);
+}
+
+h1#projects{
+  color:white;
+}

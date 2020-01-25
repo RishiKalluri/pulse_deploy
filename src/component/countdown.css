@@ -1,0 +1,33 @@
+@keyframes focus {
+  0%   { filter: blur(20px) }
+  100% { filter: blur(0) }
+}
+
+.Countdown {
+  margin: 10px auto;
+  padding-bottom: 20px;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  filter: blur(20px);
+  animation: 2s ease-out .5s 1 focus;
+  /* Duration, function, delay, number of animations, and name of animation */
+  animation-fill-mode: forwards;
+
+}
+
+.Countdown-col {
+  display: inline-block;
+}
+
+.Countdown-col-element {
+  display: inline-block;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Countdown-col-element strong {
+  font-size: 50px;
+}
