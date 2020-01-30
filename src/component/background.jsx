@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Logo from "../img/circle-cropped.png"
 import Countdown from "./countdown"
+import {FaAngleDoubleDown} from 'react-icons/fa'
 import "./Logo.css"
 
 
@@ -24,13 +25,28 @@ export default class Background extends React.Component {
 					{/* offset can be cahnged in node modules wowjs default file */}
 					<a href="https://pulse2020.typeform.com/to/Eu1RLD">
 					<button
-						className={"work-button " + this.props.bounceIn}
+						className={"work-button"}
 						data-wow-offset="0"
 						>
 						Register
 					</button>
 					</a>
+					<br/>
+					<FaAngleDoubleDown
+					className={this.props.bounceIn}
+					style={{marginBottom: "-3em"}}
+					onClick={() => {
+							let node = document.getElementById(
+								this.props.aboutRef.current.props.id
+							);
+							window.scrollTo({
+								top: node.offsetTop,
+								behavior: "smooth"
+							});
+						}}/>
+
 				</div>
+
 			</div>
 		);
 	}

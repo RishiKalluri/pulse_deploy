@@ -22,7 +22,7 @@ export default class Schedule extends React.Component {
 							Schedule
 						</h1>
 						<div className="row my-5">
-							<VerticalTimeline layout="'1-column'">
+							<VerticalTimeline layout="'2-column'">
 							  <VerticalTimelineElement
 							    className="vertical-timeline-element--work"
 							    date="Sat. 9 a.m. - 5 p.m."
@@ -69,7 +69,7 @@ export default class Schedule extends React.Component {
 							    <h6 className="vertical-timeline-element-subtitle">ECEB 3002</h6>
 							    <h8 className="vertical-timeline-element-subtitle">Panera Bread</h8>
 							    <p>
-									Meet prominent women in STEM from industry and academia, and network over lunch.							    
+									Meet prominent women in STEM from industry and academia, and network over lunch.
 								</p>
 								</VerticalTimelineElement>
 								<VerticalTimelineElement
@@ -91,7 +91,7 @@ export default class Schedule extends React.Component {
 							    <h3 className="vertical-timeline-element-title">Women in Tech Lean In</h3>
 							    <h6 className="vertical-timeline-element-subtitle">ECEB 3002</h6>
 							    <p>
-									Lean in to discuss gender bias and how to properly combat issues in industr. All are welcome!
+									Lean in to discuss gender bias and how to properly combat issues in industry. All are welcome!
 								</p>
 							  </VerticalTimelineElement>
 								<VerticalTimelineElement
@@ -115,7 +115,7 @@ export default class Schedule extends React.Component {
 							    <h6 className="vertical-timeline-element-subtitle">ECEB 3002</h6>
 							    <h8 className="vertical-timeline-element-subtitle">Noodles and Co.</h8>
 								<p>
-									Come listen to Shobana Radhakrishnan, Director of Engineering, Android TV at Google. 
+									Come listen to Shobana Radhakrishnan, Director of Engineering, Android TV at Google.
 								</p>
 							  </VerticalTimelineElement>
 							  <VerticalTimelineElement
@@ -186,7 +186,7 @@ export default class Schedule extends React.Component {
 							    <h6 className="vertical-timeline-element-subtitle">ECEB 1002</h6>
 							    <h8 className="vertical-timeline-element-subtitle">Pizza</h8>
 							    <p>
-									Test your knowledge of algorithms and coding, while competing against your peers, in this timed coding challenge. 
+									Test your knowledge of algorithms and coding, while competing against your peers, in this timed coding challenge.
 								</p>
 							  </VerticalTimelineElement>
 							  <VerticalTimelineElement
