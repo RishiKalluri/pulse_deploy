@@ -329,10 +329,12 @@
     top: 10%;
     left: 50%;
     height: 85%;
-    background-image: linear-gradient(-180deg, #101427 0%, #592368 100%);
+    background-image: url("../img/modal-background.png");
+    background-size: contain;
     z-index: 101;
     transform: translate(-50%,-10%);
     -ms-transform: translate(-50%,-10%);
+    border-style: outset;
 }
 
 .visual video,.visual img {

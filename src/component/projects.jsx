@@ -3,6 +3,7 @@ import Vmarine from "../img/Vmarine.jpg";
 import aguaDeLuz from "../img/aguaDeLuz.png";
 import todo from "../img/todolist.png";
 import PropTypes from "prop-types";
+import "./projects.css"
 
 export default class Projects extends React.Component {
 
@@ -13,7 +14,7 @@ export default class Projects extends React.Component {
 					<div className=" project-container container bg-light pb-5">
 						<h1
 							id="projects"
-							className={"text-center " + this.props.fadeInRight}>
+							className={"text-center black-text" + this.props.fadeInRight}>
 							Events
 						</h1>
 						<div className="row my-5">
@@ -68,6 +69,35 @@ export default class Projects extends React.Component {
 												);
 												modalBG.style.display = "block";
 												aguaModal.style.display =
+													"block";
+											}}>
+											Learn More
+										</button>
+									</div>
+								</div>
+							</div>
+							<div
+								className={
+									"todobg col-12 col-sm-12 col-md-4 " +
+									this.props.fadeIn
+								}>
+								<div className="overlay">
+									<div className="text">
+										<h2>Hardware Hackathon</h2>
+									</div>
+									<div>
+										<button
+											id="todo-button"
+											className="project-button"
+											onClick={() => {
+												var modalBG = document.getElementById(
+													"gallery-card"
+												);
+												var todoModal = document.getElementById(
+													"todolist"
+												);
+												modalBG.style.display = "block";
+												todoModal.style.display =
 													"block";
 											}}>
 											Learn More

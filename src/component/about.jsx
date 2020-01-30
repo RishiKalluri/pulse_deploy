@@ -12,6 +12,7 @@ export default class About extends React.Component {
 			<div
 				id="about-container"
 				className="content-containers container text-center mt-5">
+
 				<h1 id="about" className={this.props.bounceLeft}>
 					About
 				</h1>
@@ -21,6 +22,47 @@ Reflections | Projections is an annual technology conference held at the Univers
 
 Our Team
 We are students passionate about technology who embody the diversity and excellence inherent at the University of Illinois at Urbana-Champaign. We bring industry and academia into one conference to incite the spread of novel ideas. We connect students with professional opportunities. We host a one of a kind AI hackathon. And, we can't wait for you to come to R|P 2019!
+<div className="row" style={{ marginTop: 7 + "rem" }}>
+
+		<div className="col-6 col-lg-6 hidden">
+				<img
+					className={"img-fluid " + this.props.fadeIn}
+					src={myImage}
+					alt=""
+					style={{
+						borderRadius: 50 + "%",
+						height: 250 + "px",
+						width: 250 + "px"
+					}}
+				/>
+				<h4>Abishek Venkit</h4>
+				<h5>Director</h5>
+				<p className={"mytext pt-1 " + this.props.fadeIn}>
+					I love to transform ideas into reality using code. I
+					am passionate about using Javascript and animations
+					to create awesome user experiences.
+				</p>
+			</div>
+			<div className="col-6 col-lg-6 hidden">
+					<img
+						className={"img-fluid " + this.props.fadeIn}
+						src={myImage}
+						alt=""
+						style={{
+							borderRadius: 50 + "%",
+							height: 250 + "px",
+							width: 250 + "px"
+						}}
+					/>
+					<h4>Abishek Venkit</h4>
+					<h5>Director</h5>
+					<p className={"mytext pt-1 " + this.props.fadeIn}>
+						I love to transform ideas into reality using code. I
+						am passionate about using Javascript and animations
+						to create awesome user experiences.
+					</p>
+				</div>
+			</div>
 			</div>
 		);
 	}
