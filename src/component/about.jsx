@@ -19,6 +19,10 @@ import Rishi from "../img/headshots/Rishi.png"
 import Shayna from "../img/headshots/Shayna.png"
 import Shreyas from "../img/headshots/Shreyas.png"
 
+import Joey from "../img/headshots/Joey.png"
+import Daksh from "../img/headshots/Daksh.png"
+import Cary from "../img/headshots/Cary.png"
+
 export default class About extends React.Component {
 	render() {
 		return (
@@ -112,12 +116,12 @@ export default class About extends React.Component {
 						<div className="col-6 col-lg-6 hidden move-up">
 								<img
 									className={"img-fluid profile" + this.props.fadeIn}
-									src={Abishek}
+									src={Daksh}
 									alt=""
 									style={{
 										borderRadius: 50 + "%",
 										height: 250 + "px",
-										width: 250 + "px"
+										width: 400 + "px"
 									}}
 								/>
 								<h4>Daksh Varshney</h4>
@@ -174,12 +178,12 @@ export default class About extends React.Component {
 								<div className="col-6 col-lg-6 hidden move-up">
 										<img
 											className={"img-fluid profile" + this.props.fadeIn}
-											src={Ribhav}
+											src={Cary}
 											alt=""
 											style={{
 												borderRadius: 50 + "%",
 												height: 250 + "px",
-												width: 250 + "px"
+												width: 400 + "px"
 											}}
 										/>
 										<h4>Cary Chai</h4>
@@ -236,12 +240,11 @@ export default class About extends React.Component {
 								<div className="col-6 col-lg-6 hidden move-up">
 										<img
 											className={"img-fluid profile" + this.props.fadeIn}
-											src={Abishek}
+											src={Joey}
 											alt=""
 											style={{
-												borderRadius: 50 + "%",
 												height: 250 + "px",
-												width: 250 + "px"
+												width: 400 + "px"
 											}}
 										/>
 										<h4>Joey Bahary</h4>
