@@ -154,14 +154,6 @@
     font-size: 1rem;
 }
 
-.keynotebg {
-    background-image: url("../img/todolist.png");
-    height: 400px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .aguabg {
     background-image: url("../img/aguaDeLuz.png");
     height: 400px;
@@ -176,6 +168,44 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.keynotebg {
+    background-image: url("../img/headshots/Keynote.JPG");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.witbg {
+    background-image: url("../img/headshots/WIT.JPG");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hsbg {
+    background-image: url("../img/headshots/hsDay.JPG");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.swbg {
+    background-image: url("../img/headshots/swComp.JPG");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hwbg {
+    background-image: url("../img/headshots/hwComp.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .mytext {
     font-size: 1.2rem;
@@ -302,7 +332,7 @@
     color: white;
 }
 
-.aguabg:hover .overlay, .testbg:hover .overlay, .todobg:hover .overlay  {
+.aguabg:hover .overlay, .testbg:hover .overlay, .todobg:hover .overlay, .keynotebg:hover .overlay, .witbg:hover .overlay,  .swbg:hover .overlay, .hwbg:hover .overlay, .hsbg:hover .overlay  {
     opacity: 1;
 }
 

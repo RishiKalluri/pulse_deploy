@@ -121,7 +121,7 @@ export default class About extends React.Component {
 									style={{
 										borderRadius: 50 + "%",
 										height: 250 + "px",
-										width: 400 + "px"
+										width: 250 + "px"
 									}}
 								/>
 								<h4>Daksh Varshney</h4>
@@ -183,7 +183,7 @@ export default class About extends React.Component {
 											style={{
 												borderRadius: 50 + "%",
 												height: 250 + "px",
-												width: 400 + "px"
+												width: 250 + "px"
 											}}
 										/>
 										<h4>Cary Chai</h4>
@@ -244,7 +244,7 @@ export default class About extends React.Component {
 											alt=""
 											style={{
 												height: 250 + "px",
-												width: 400 + "px"
+												width: 250 + "px"
 											}}
 										/>
 										<h4>Joey Bahary</h4>

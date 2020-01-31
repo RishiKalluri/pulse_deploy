@@ -125,13 +125,13 @@ class Navbar extends React.Component {
 					fadeInRight={"wow fadeInRight"}
 					fadeIn={"wow fadeIn"}
 					tada={"wow fadeIn"}
-				/>{/*
+				/>
 				<Projects
 					ref={this.projects}
 					id="my-projects"
 					fadeInRight={"wow fadeInRight"}
 					fadeIn={"wow fadeIn"}
-				/>*/}
+				/>
 				<Schedule
 					ref={this.schedule}
 					id="my-schedule"

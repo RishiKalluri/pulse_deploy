@@ -20,72 +20,63 @@ export default class Projects extends React.Component {
 						<div className="row my-5">
 							<div
 								className={
-									"testbg col-12 col-sm-12 col-md-4 " +
+									"keynotebg col-12 col-sm-12 col-md-6 " +
 									this.props.fadeIn
 								}>
 								<div className="overlay">
 									<div className="text">
 										<h2>Keynote</h2>
-									</div>
-									<div>
-										<button
-											id="vmarine-button"
-											className="project-button"
-											onClick={() => {
-												var modalBG = document.getElementById(
-													"gallery-card"
-												);
-												var marineModal = document.getElementById(
-													"vmarine"
-												);
-												modalBG.style.display = "block";
-												marineModal.style.display =
-													"block";
-											}}>
-											Learn More
-										</button>
+										<h5>Feb. 5: 5 p.m. - 7 p.m.</h5>
 									</div>
 								</div>
 							</div>
 							<div
 								className={
-									"aguabg col-12 col-sm-12 col-md-4 " +
+									"witbg col-12 col-sm-12 col-md-6 " +
 									this.props.fadeIn
 								}>
 								<div className="overlay">
 									<div className="text">
 										<h2>Women in Tech Day</h2>
-									</div>
-									<div>
-										<button
-											id="agua-button"
-											className="project-button"
-											onClick={() => {
-												var modalBG = document.getElementById(
-													"gallery-card"
-												);
-												var aguaModal = document.getElementById(
-													"agualuz"
-												);
-												modalBG.style.display = "block";
-												aguaModal.style.display =
-													"block";
-											}}>
-											Learn More
-										</button>
+										<h5>Feb. 4: All Day</h5>
 									</div>
 								</div>
 							</div>
 							<div
 								className={
-									"todobg col-12 col-sm-12 col-md-4 " +
+									"hsbg col-12 col-sm-12 col-md-4 " +
 									this.props.fadeIn
 								}>
 								<div className="overlay">
 									<div className="text">
-										<h2>Hardware Hackathon</h2>
+										<h2>High School Day</h2>
+										<h5>Feb. 1: All Day</h5>
 									</div>
-									<div>
+								</div>
+							</div>
+							<div
+								className={
+									"hwbg col-12 col-sm-12 col-md-4 " +
+									this.props.fadeIn
+								}>
+								<div className="overlay">
+									<div className="text">
+										<h2>Hardware Competition</h2>
+										<h5>Feb. 9: 9 a.m. - 9 p.m.</h5>
+									</div>
+								</div>
+							</div>
+							<div
+								className={
+									"swbg col-12 col-sm-12 col-md-4 " +
+									this.props.fadeIn
+								}>
+								<div className="overlay">
+									<div className="text">
+										<h2>Software Competition</h2>
+										<h5>Feb. 8: 6 p.m. - 8 p.m.</h5>
+									</div>
+									{/*<div>
 										<button
 											id="todo-button"
 											className="project-button"
@@ -102,36 +93,7 @@ export default class Projects extends React.Component {
 											}}>
 											Learn More
 										</button>
-									</div>
-								</div>
-							</div>
-							<div
-								className={
-									"todobg col-12 col-sm-12 col-md-4 " +
-									this.props.fadeIn
-								}>
-								<div className="overlay">
-									<div className="text">
-										<h2>Hardware Hackathon</h2>
-									</div>
-									<div>
-										<button
-											id="todo-button"
-											className="project-button"
-											onClick={() => {
-												var modalBG = document.getElementById(
-													"gallery-card"
-												);
-												var todoModal = document.getElementById(
-													"todolist"
-												);
-												modalBG.style.display = "block";
-												todoModal.style.display =
-													"block";
-											}}>
-											Learn More
-										</button>
-									</div>
+									</div>*/}
 								</div>
 							</div>
 						</div>

@@ -25,7 +25,7 @@ export default class Schedule extends React.Component {
 							<VerticalTimeline layout="'2-column'">
 							  <VerticalTimelineElement
 							    className="vertical-timeline-element--work"
-							    date="Sat. 9 a.m. - 5 p.m."
+							    date="Saturday, February 1st. 9 a.m. - 5 p.m."
 							    iconStyle={{ background: '#fd901c', color: '#fff' }}
 							  >
 							    <h3 className="vertical-timeline-element-title">High School Day</h3>
@@ -36,7 +36,7 @@ export default class Schedule extends React.Component {
 							  </VerticalTimelineElement>
 							  <VerticalTimelineElement
 								className="vertical-timeline-element--work"
-							    date="Mon. 4 p.m. - 6 p.m."
+							    date="Monday, February 3rd. 4 p.m. - 6 p.m."
 							    iconStyle={{ background: '#fd901c', color: '#fff' }}
 							  >
 							    <h3 className="vertical-timeline-element-title">Corporate Lightning Talks</h3>
@@ -49,7 +49,7 @@ export default class Schedule extends React.Component {
 							  </VerticalTimelineElement>
 								<VerticalTimelineElement
 							    className="vertical-timeline-element--work"
-							    date="Mon. 7 p.m. - 8 p.m."
+							    date="Monday, February 3rd. 7 p.m. - 8 p.m."
 							    iconStyle={{ background: '#fd901c', color: '#fff' }}
 							  >
 							    <h3 className="vertical-timeline-element-title">Hardware Interview Prep Workshop</h3>
@@ -62,7 +62,7 @@ export default class Schedule extends React.Component {
 							  </VerticalTimelineElement>
 								<VerticalTimelineElement
 								className="vertical-timeline-element--work"
-							    date="Tues. 11 a.m. - 1 p.m."
+							    date="Tuesday, February 4th. 11 a.m. - 1 p.m."
 							    iconStyle={{ background: '#fd901c', color: '#fff' }}
 							  >
 							    <h3 className="vertical-timeline-element-title">Women in Tech Networking Luncheon</h3>
@@ -74,7 +74,7 @@ export default class Schedule extends React.Component {
 								</VerticalTimelineElement>
 								<VerticalTimelineElement
 							    className="vertical-timeline-element--work"
-							    date="Tues. 1 p.m. - 3 p.m."
+							    date="Tuesday, February 4th. 1 p.m. - 3 p.m."
 							    iconStyle={{ background: '#fd901c', color: '#fff' }}
 							  >
 							    <h3 className="vertical-timeline-element-title">Hubspot Recruiting</h3>
@@ -85,7 +85,7 @@ export default class Schedule extends React.Component {
 							  </VerticalTimelineElement>
 								<VerticalTimelineElement
 							    className="vertical-timeline-element--work"
-							    date="Tues. 2 p.m. - 3 p.m."
+							    date="Tuesday, February 4th. 2 p.m. - 3 p.m."
 							    iconStyle={{ background: '#fd901c', color: '#fff' }}
 							  >
 							    <h3 className="vertical-timeline-element-title">Women in Tech Lean In</h3>
@@ -96,7 +96,7 @@ export default class Schedule extends React.Component {
 							  </VerticalTimelineElement>
 								<VerticalTimelineElement
 								className="vertical-timeline-element--work"
-							    date="Tues. 3:30 p.m. - 5 p.m."
+							    date="Tuesday, February 4th. 3:30 p.m. - 5 p.m."
 							    iconStyle={{ background: '#fd901c', color: '#fff' }}
 							  >
 							    <h3 className="vertical-timeline-element-title">Women in Tech Lightning Talks</h3>
@@ -108,7 +108,7 @@ export default class Schedule extends React.Component {
 							  </VerticalTimelineElement>
 								<VerticalTimelineElement
 							    className="vertical-timeline-element--work"
-							    date="Tues. 5:30 p.m. - 7 p.m."
+							    date="Tuesday, February 4th. 5:30 p.m. - 7 p.m."
 							    iconStyle={{ background: '#fd901c', color: '#fff' }}
 							  >
 							    <h3 className="vertical-timeline-element-title">Women in Tech Keynote</h3>
@@ -120,7 +120,7 @@ export default class Schedule extends React.Component {
 							  </VerticalTimelineElement>
 							  <VerticalTimelineElement
 							    className="vertical-timeline-element--work"
-							    date="Wed. 12 p.m. - 2 p.m."
+							    date="Wednesday, February 5th. 12 p.m. - 2 p.m."
 							    iconStyle={{ background: '#fd901c', color: '#fff' }}
 							  >
 							    <h3 className="vertical-timeline-element-title">Texas Instruments Recruiting</h3>
@@ -131,7 +131,7 @@ export default class Schedule extends React.Component {
 							  </VerticalTimelineElement>
 							  <VerticalTimelineElement
 							    className="vertical-timeline-element--work"
-							    date="Wed. 5 p.m. - 7 p.m."
+							    date="Wednesday, February. 5th 5 p.m. - 7 p.m."
 							    iconStyle={{ background: '#fd901c', color: '#fff' }}
 							  >
 							    <h3 className="vertical-timeline-element-title">Pulse Keynote Address</h3>
@@ -143,7 +143,7 @@ export default class Schedule extends React.Component {
 							  </VerticalTimelineElement>
 							  <VerticalTimelineElement
 							    className="vertical-timeline-element--work"
-							    date="Thurs. 4 p.m. - 5 p.m."
+							    date="Thursday, February 6th. 4 p.m. - 5 p.m."
 							    iconStyle={{ background: '#fd901c', color: '#fff' }}
 							  >
 							    <h3 className="vertical-timeline-element-title">How to get an Internship, by Research Park</h3>
@@ -155,7 +155,7 @@ export default class Schedule extends React.Component {
 							  </VerticalTimelineElement>
 							  <VerticalTimelineElement
 							    className="vertical-timeline-element--work"
-							    date="Thurs. 6 p.m. - 7:30 p.m."
+							    date="Thursday, February 6th. 6 p.m. - 7:30 p.m."
 							    iconStyle={{ background: '#fd901c', color: '#fff' }}
 							  >
 							    <h3 className="vertical-timeline-element-title">Texas Instruments Sensor Board Workshop</h3>
@@ -166,7 +166,7 @@ export default class Schedule extends React.Component {
 							  </VerticalTimelineElement>
 							  <VerticalTimelineElement
 							    className="vertical-timeline-element--work"
-							    date="Thurs. 7 p.m. - 9 p.m."
+							    date="Thursday, February 6th. 7 p.m. - 9 p.m."
 							    iconStyle={{ background: '#fd901c', color: '#fff' }}
 							  >
 							    <h3 className="vertical-timeline-element-title">Future of Tech</h3>
@@ -179,7 +179,7 @@ export default class Schedule extends React.Component {
 							  </VerticalTimelineElement>
 							  <VerticalTimelineElement
 							    className="vertical-timeline-element--work"
-							    date="Fri. 6 p.m. - 8 p.m."
+							    date="Friday, February 7th. 6 p.m. - 8 p.m."
 							    iconStyle={{ background: '#fd901c', color: '#fff' }}
 							  >
 							    <h3 className="vertical-timeline-element-title">Software Competition</h3>
@@ -191,7 +191,7 @@ export default class Schedule extends React.Component {
 							  </VerticalTimelineElement>
 							  <VerticalTimelineElement
 							    className="vertical-timeline-element--work"
-							    date="Sat. 9 a.m. - 9 p.m."
+							    date="Saturday, February 8th. 9 a.m. - 9 p.m."
 							    iconStyle={{ background: '#fd901c', color: '#fff' }}
 							  >
 							    <h3 className="vertical-timeline-element-title">Hardware Competition</h3>
