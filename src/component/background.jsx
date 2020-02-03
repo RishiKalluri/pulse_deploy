@@ -32,19 +32,6 @@ export default class Background extends React.Component {
 					</button>
 					</a>
 					<br/>
-					<FaAngleDoubleDown
-					className={this.props.bounceIn}
-					style={{marginBottom: "-3em"}}
-					onClick={() => {
-							let node = document.getElementById(
-								this.props.aboutRef.current.props.id
-							);
-							window.scrollTo({
-								top: node.offsetTop,
-								behavior: "smooth"
-							});
-						}}/>
-
 				</div>
 
 			</div>

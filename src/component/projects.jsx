@@ -64,6 +64,24 @@ export default class Projects extends React.Component {
 										<h2>Hardware Competition</h2>
 										<h5>Feb. 9: 9 a.m. - 9 p.m.</h5>
 									</div>
+									<div>
+										<button
+											id="todo-button"
+											className="project-button"
+											onClick={() => {
+												var modalBG = document.getElementById(
+													"gallery-card"
+												);
+												var todoModal = document.getElementById(
+													"vmarine"
+												);
+												modalBG.style.display = "block";
+												todoModal.style.display =
+													"block";
+											}}>
+											Learn More
+										</button>
+									</div>
 								</div>
 							</div>
 							<div
@@ -76,7 +94,7 @@ export default class Projects extends React.Component {
 										<h2>Software Competition</h2>
 										<h5>Feb. 8: 6 p.m. - 8 p.m.</h5>
 									</div>
-									{/*<div>
+									<div>
 										<button
 											id="todo-button"
 											className="project-button"
@@ -93,7 +111,7 @@ export default class Projects extends React.Component {
 											}}>
 											Learn More
 										</button>
-									</div>*/}
+									</div>
 								</div>
 							</div>
 						</div>
@@ -102,24 +120,23 @@ export default class Projects extends React.Component {
 
 				{/*hidden modals*/}
 				<div id="gallery-card">
-					<div id="vmarine" className="modal-card">
+					<div id="vmarine" className="modal-card"  style={{color: "white"}}>
 						<div className="modal-info">
-							<h2>Vmarine</h2>
+							<h2>Prizes</h2>
 							<div className="modal-description">
 								<ul>
 									<li>
-										Prototype marine web-application to
-										provide information about progress of
-										services and prices.
+										1st Place: Nintendo Switch (x5)
 									</li>
 									<li>
-										Designed with HTML5, CSS3, Bootstrap,
-										Webpack, Wordpress, and ReactJS.
+										2nd Place: Oculus Go (x5)
+									</li>
+									<li>
+										3rd Place: Bose SoundSport Wireless Headphones (x5)
 									</li>
 								</ul>
 							</div>
 							<div className="modal-bottom">
-								<h4>Comming Soon!</h4>
 								<p
 									className="close-icon"
 									style={{
@@ -194,27 +211,36 @@ export default class Projects extends React.Component {
 						</div>
 					</div>
 
-					<div id="todolist" className="modal-card">
-						<div className="visual">
-							<img src={todo} alt=""/>
-						</div>
+					<div id="todolist" className="modal-card" style={{color: "white"}}>
 						<div className="modal-info">
-							<h2>To-Do List</h2>
+							<h2>Prizes:</h2>
 							<div className="modal-description">
+							<h3>Beginner:</h3>
 								<ul>
 									<li>
-										A to-do list to keep track of goals.
+										1st Place: VANKYO Leisure 3 Mini Projector
 									</li>
 									<li>
-										Developed with HTML5, CSS3, Bootstrap,
-										Webpack, and ReactJS.
+										2nd Place: Logitech G502 Gaming Mouse
+									</li>
+									<li>
+										3rd Place: Google Home Mini
+									</li>
+								</ul>
+							<h3>Advanced:</h3>
+								<ul>
+									<li>
+										 1st Place: Samsung FHD 27" Curved Monitor
+									</li>
+									<li>
+										2nd Place: Logitech G Pro X Mechanical Keyboard
+									</li>
+									<li>
+										3rd Place: UE Boom 2 Speaker
 									</li>
 								</ul>
 							</div>
 							<div className="modal-bottom">
-								<a href="./todoList/index.html" target="_blank">
-									<h3>View live demo</h3>
-								</a>
 								<p
 									className="close-icon"
 									style={{
