@@ -122,7 +122,7 @@ export default class Projects extends React.Component {
 				<div id="gallery-card">
 					<div id="vmarine" className="modal-card"  style={{color: "white"}}>
 						<div className="modal-info">
-							<h2>Prizes</h2>
+							<h2>Prizes:</h2>
 							<div className="modal-description">
 								<ul>
 									<li>
@@ -135,6 +135,14 @@ export default class Projects extends React.Component {
 										3rd Place: Bose SoundSport Wireless Headphones (x5)
 									</li>
 								</ul>
+								<a href="https://docs.google.com/forms/d/e/1FAIpQLSfIvYzVeSCro5vf03Rg__0Sqoku33_ZZMI_TCWdhiqk5i9z_Q/viewform">
+								<button
+									className={"work-button"}
+									data-wow-offset="0"
+									>
+									Register
+								</button>
+								</a>
 							</div>
 							<div className="modal-bottom">
 								<p
@@ -239,6 +247,7 @@ export default class Projects extends React.Component {
 										3rd Place: UE Boom 2 Speaker
 									</li>
 								</ul>
+							<h3>No Prior Registration Required. Sign-up at the event!</h3>
 							</div>
 							<div className="modal-bottom">
 								<p
