@@ -1,73 +1,126 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import TI from "../img/companies/texasinstruments.png"
+import IMC from "../img/companies/IMC Logo.png"
+import ATT from "../img/companies/ATT-Black -Logo.png"
+import Redfin from "../img/companies/redfin-logo-transparent.png"
+import Res from "../img/companies/Research Park Logo.png"
+import Hubspot from "../img/companies/hubspotlogo.svg"
+import Google from "../img/companies/Google Logo.png"
+import FB from "../img/companies/Facebook Logo.png"
+
+
 export default class Contact extends React.Component {
 	render() {
 		return (
 			<div id="my-contact" className="container-fluid text-center mt-5">
 				<h1 id="contact" className={"mb-3 " + this.props.fadeInLeft}>
 					<br/>
-					Contact
+					Sponsors
 				</h1>
-				<form
-					className={this.props.shake}
-					action="https://formspree.io/example@email.com"
-					method="POST">
-					<div className="form-group">
-						<div className="row">
-							<div className="col-12 col-sm-12 col-md-6 mx-auto">
-								<input
-									type="text"
-									name="name"
-									className="form-control form-control-lg"
-									id="name"
-									placeholder="Name"
-								/>
-							</div>
-						</div>
+				<div className="row">
+					<div className="col-3 col-lg-12 hidden move-up">
+							<img
+								className={"img-fluid profile" + this.props.fadeIn}
+								src={TI}
+								alt=""
+								style={{
+									height: 300 + "px",
+									width: 500 + "px",
+								}}
+							/>
 					</div>
-					<div className="form-group hidden">
-						<div className="row">
-							<div className="col-12 col-sm-12 col-md-6 mx-auto">
-								<input
-									type="email"
-									name="_replyto"
-									className="form-control form-control-lg"
-									id="exampleFormControlInput1"
-									placeholder="Your email"
-								/>
-							</div>
-						</div>
+				</div>
+				<div className="row">
+					<div className="col-6 col-lg-6 hidden move-up">
+							<img
+								className={"img-fluid profile" + this.props.fadeIn}
+								src={ATT}
+								alt=""
+								style={{
+									height: 125 + "px",
+									width: 300 + "px",
+								}}
+							/>
 					</div>
-					<div className="form-group hiddenRight">
-						<div className="row">
-							<div className="col-12 col-sm-12 col-md-6 mx-auto">
-								<textarea
-									name="message"
-									className="form-control form-control-lg"
-									id="exampleFormControlTextarea1"
-									rows="3"
-									placeholder="Write your message..."
-								/>
-							</div>
-						</div>
+					<div className="col-6 col-lg-6 hidden move-up">
+							<img
+								className={"img-fluid profile" + this.props.fadeIn}
+								src={IMC}
+								alt=""
+								style={{
+									height: 125 + "px",
+									width: 300 + "px",
+								}}
+							/>
 					</div>
-					<div className="row text-md-right text-sm-center">
-						<div className="col-12 col-sm-12 col-md-6 mx-auto">
-							<button
-								type="submit"
-								className="btn btn-primary mb-2 hidden">
-								Submit
-							</button>
-						</div>
-					</div>
-				</form>
 			</div>
+			<br/>
+			<div className="row">
+				<div className="col-6 col-lg-6 hidden move-up">
+						<img
+							className={"img-fluid profile" + this.props.fadeIn}
+							src={Redfin}
+							alt=""
+							style={{
+								height: 125 + "px",
+								width: 300 + "px",
+							}}
+						/>
+				</div>
+				<div className="col-6 col-lg-6 hidden move-up">
+						<img
+							className={"img-fluid profile" + this.props.fadeIn}
+							src={Res}
+							alt=""
+							style={{
+								height: 125 + "px",
+								width: 300 + "px",
+							}}
+						/>
+				</div>
+		</div>
+		<div className="row">
+			<div className="col-6 col-lg-12 hidden move-up">
+					<img
+						className={"img-fluid profile" + this.props.fadeIn}
+						src={Hubspot}
+						alt=""
+						style={{
+							height: 125 + "px",
+							width: 300 + "px",
+						}}
+					/>
+			</div>
+	</div>
+	<div className="row">
+		<div className="col-6 col-lg-6 hidden move-up">
+				<img
+					className={"img-fluid profile" + this.props.fadeIn}
+					src={Google}
+					alt=""
+					style={{
+						height: 125 + "px",
+						width: 150 + "px",
+					}}
+				/>
+		</div>
+		<div className="col-6 col-lg-6 hidden move-up">
+		<br/>
+				<img
+					className={"img-fluid profile" + this.props.fadeIn}
+					src={FB}
+					alt=""
+					style={{
+						height: 50 + "px",
+						width: 200 + "px",
+					}}
+				/>
+		</div>
+</div>
+			</div>
+
 		);
 	}
 }
-
-Contact.propTypes = {
-	fadeInLeft: PropTypes.string,
-	shake: PropTypes.string
-};
