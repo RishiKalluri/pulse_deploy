@@ -170,7 +170,7 @@ export default class Schedule extends React.Component {
 							    iconStyle={{ background: '#fd901c', color: '#fff' }}
 							  >
 							    <h3 className="vertical-timeline-element-title">Future of Tech</h3>
-							    <h6 className="vertical-timeline-element-subtitle">ECEB 2017</h6>
+							    <h6 className="vertical-timeline-element-subtitle">ECEB 1013</h6>
 							    <h8 className="vertical-timeline-element-subtitle">Pizza</h8>
 
 							    <p>
